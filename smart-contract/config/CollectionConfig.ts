@@ -23,7 +23,7 @@ const CollectionConfig: CollectionConfigInterface = {
     maxMintAmountPerTx: 5,
   },
   contractAddress: null,
-  marketplaceIdentifier: 'my-nft-token',
+  marketplaceIdentifier: 'MallowFrens',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };
