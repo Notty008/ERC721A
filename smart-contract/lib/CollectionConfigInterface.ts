@@ -15,7 +15,6 @@ export default interface CollectionConfigInterface {
   hiddenMetadataUri: string;
   maxSupply: number;
   whitelistSale: SaleConfig;
-  preSale: SaleConfig;
   publicSale: SaleConfig;
   contractAddress: string|null;
   marketplaceIdentifier: string;

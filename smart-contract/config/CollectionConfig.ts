@@ -13,20 +13,16 @@ const CollectionConfig: CollectionConfigInterface = {
   tokenName: 'MallowFrens',
   tokenSymbol: 'MF',
   hiddenMetadataUri: 'ipfs://QmT3sNkYMvnHoVGkKZDNy2wi1MX3Bj5RWn4QxQQd3DE2E1/hidden.json',
-  maxSupply: 20,
+  maxSupply: 10,
   whitelistSale: {
     price: 0.039,
     maxMintAmountPerTx: 2,
-  },
-  preSale: {
-    price: 0.049,
-    maxMintAmountPerTx: 5,
   },
   publicSale: {
     price: 0.049,
     maxMintAmountPerTx: 5,
   },
-  contractAddress: "0x524a7C740F04fdde6A2C512a785DeDbC030AC27b",
+  contractAddress: "0xE77422888e74Cc5F5492ad258bAd56BD895B86bD",
   marketplaceIdentifier: 'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
