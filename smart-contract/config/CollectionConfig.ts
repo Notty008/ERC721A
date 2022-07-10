@@ -19,10 +19,10 @@ const CollectionConfig: CollectionConfigInterface = {
     maxMintAmountPerTx: 10,
   },
   publicSale: {
-    price: 0.049,
+    price: 0.039,
     maxMintAmountPerTx: 20,
   },
-  contractAddress: null,
+  contractAddress: "0x19f6386ce5102F962791f3328595c07a3615dCB7",
   marketplaceIdentifier: 'MallowFrens',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
